@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Image Changer - by Wasid</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Image Changer</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <a href="#"></a>
+                <li><a href="#">By - Wasid</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container">            
+            <div class="container">
+                <div class="form-group">
+                  <div class="col-lg-6" style="padding: 0px">
+                    <label for="select">Image</label>
+                    <select id="src" class="form-control">
+                      <option value="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=897709223456e1274da1db3b9bfe47b5">image 1</option>
+                      <option value="https://images.unsplash.com/photo-1472772224448-b24d00409675?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=4beca246e59f8e9ef7bcb164d1b7c6d0">image 2</option>
+                      <option value="https://images.unsplash.com/photo-1448454050639-2f8d4bf26975?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=93c7365a4c0d35513ed02e1f3bd15c21">image 3</option>
+                    </select>
+                  </div>
+                </div>
+            </div>
+            
+            <br/>
+                    
+            <div class="container">
+            	<img class="img-rounded" id="contents" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=897709223456e1274da1db3b9bfe47b5" width="600" height="400"/>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
